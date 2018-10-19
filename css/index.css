@@ -1,0 +1,80 @@
+body{
+    /* background-color: rgb(243, 247, 252) */
+    background:radial-gradient(at 25% 300px,rgb(255, 255, 255),rgb(234, 244, 255));
+    /* background-repeat:no-repeat; */
+}
+.row {
+    display: flex;
+    margin-top:100px;
+}
+
+.column {
+    flex: 50%;
+}
+#home_img{
+    width: 500px;
+    height: auto;
+    margin-left: 200px;
+}
+#title{
+    text-align: center;
+    color: rgb(147, 204, 255);
+}
+#login_and_registration{
+    width: 400px;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5px;
+    border-color: rgb(147, 204, 255);
+    padding: 10px 10px;
+}
+
+#hr_log_reg{
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 20px 50px;
+    padding: 0; 
+}
+
+#login{
+   
+}
+#registration{
+
+}
+
+.login_reg_fields{
+    width: 180px;
+    height: 30px;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 18px;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5px;
+}
+option {
+    color: gray;
+}
+
+#submit_login,#submit_reg{
+    width: 100px;
+    height: 30px;
+    font-size: 18px;
+    display: block;
+    margin: auto;
+    border:none;
+    background-color: rgb(147, 204, 255);
+    font-size: 15px;
+    color:  rgb(255, 255, 255);
+}
+#submit_login{
+    margin-top: 10px;
+}
+#submit_reg{
+    margin-top:30px;
+}
